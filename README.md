@@ -18,5 +18,5 @@ Interested? Get in contact today!
 - **Email**: [jkirangw@gmail.com](mailto:jkirangw@gmail.com)
 - **Phone**: +49015140364677
 
-Follow us on [LinkedIn](https://www.linkedin.com/company/datamindsbioinformatics/](https://www.linkedin.com/company/datamindsbioinformatics/)](https://www.linkedin.com/company/datamindsbioinformatics/) for updates and insights.
+Follow us on [LinkedIn](https://www.linkedin.com/company/datamindsbioinformatics/) for updates and insights.
 
