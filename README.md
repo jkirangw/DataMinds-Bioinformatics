@@ -15,8 +15,8 @@ DataMinds Bioinformatics provides comprehensive bioinformatics solutions. The mi
 
 Interested? Get in contact today!
 
-- **Email**: [contact@datamindsbioinformatics.com](mailto:jkirangw@gmail.com)
+- **Email**: [contact](mailto:jkirangw@gmail.com)
 - **Phone**: +49015140364677
 
-Follow us on [LinkedIn]([https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/company/datamindsbioinformatics/) for updates and insights.
+Follow us on [LinkedIn](https://www.linkedin.com/company/datamindsbioinformatics/) for updates and insights.
 
