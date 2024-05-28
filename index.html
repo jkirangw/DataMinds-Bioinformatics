@@ -3,69 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bioinformatics Freelance Consultant</title>
+    <title>DataMinds Bioinformatics</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        /* Add custom CSS styles here */
         body {
             font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
         }
-
         header {
-            background-color: #007bff;
-            color: #fff;
-            padding: 20px 0;
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
             text-align: center;
         }
-
-        header nav ul {
-            list-style: none;
+        nav ul {
             padding: 0;
+            list-style: none;
         }
-
-        header nav ul li {
+        nav ul li {
             display: inline;
-            margin-right: 20px;
+            margin: 0 10px;
         }
-
-        header nav ul li a {
-            color: #fff;
+        nav ul li a {
+            color: #ffffff;
             text-decoration: none;
-            font-size: 18px;
         }
-
-        section#home {
-            text-align: center;
-            padding: 100px 0;
+        main {
+            padding: 20px;
         }
-
-        section#home h1 {
-            font-size: 36px;
+        section {
             margin-bottom: 20px;
-        }
-
-        section#home p {
-            font-size: 18px;
-            margin-bottom: 40px;
-        }
-
-        .cta-button {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: #fff;
-            text-decoration: none;
-            font-size: 18px;
+            background: #ffffff;
+            padding: 20px;
             border-radius: 5px;
-            transition: background-color 0.3s ease;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-
-        .cta-button:hover {
-            background-color: #0056b3;
+        h1, h2 {
+            color: #35424a;
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+        h2 {
+            font-size: 2em;
+            margin-top: 0;
+        }
+        p {
+            font-size: 1.1em;
+            color: #333333;
+        }
+        .hero-image {
+            background-image: url('https://example.com/bioinformatics-image.jpg'); /* Replace URL with your bioinformatics image */
+            background-size: cover;
+            background-position: center;
+            height: 300px; /* Adjust height as needed */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #ffffff;
+        }
+        .hero-content {
+            padding: 20px;
+        }
+        footer {
+            background: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
@@ -76,17 +87,43 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="services.html">Services</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <section id="home">
-        <h1>Welcome to DataMinds Bioinformatics!</h1>
-        <p>DataMinds Bioinformatics provides comprehensive bioinformatics solutions. Our mission is to unlock insights from biological data through cutting-edge analytical techniques.</p>
-        <a href="services.html" class="cta-button">Discover More</a>
-    </section>
+    <main>
+        <section class="hero-image">
+            <div class="hero-content">
+                <h1>Welcome to DataMindsBioinformatics!</h1>
+                <p>DataMindsBioinformatics provides comprehensive bioinformatics solutions. Our mission is to unlock insights from biological data through cutting-edge analytical techniques.</p>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>We offer a range of bioinformatics services designed to support your research and development projects:</p>
+            <ul>
+                <li>Advanced Omics Data Analysis: RNAseq, ChIP-Seq, ATAC-seq, Genome assembly, and customized analyses, including lcWGS PopGen analysis.</li>
+                <li>Sequencing Analysis Pipeline Development: Creation and optimization of robust sequencing analysis pipelines to streamline data processing.</li>
+                <li>Laboratory Sequencing Workflow Setup: Comprehensive support in setting up ONT sequencing in your lab, from DNA isolation to data quality control.</li>
+                <li>Specialized Personnel Training: Short courses in Unix, R and Python programming specifically tailored for bioinformatics applications.</li>
+            </ul>
+        </section>
+
+        <section id="why-us">
+            <h2>Why Choose Us?</h2>
+            <p>Choosing DataMindsBioinformatics means partnering with a team that is committed to your success. Our blend of computational and experimental expertise ensures that we not only process your data efficiently but also provide valuable biological insights. We pride ourselves on our client-focused approach, working closely with you at every stage of your project to ensure the best outcomes.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to discuss how we can assist with your bioinformatics needs, please <a href="contact.html">get in touch</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 DataMinds Bioinformatics. All rights reserved.</p>
+    </footer>
 </body>
 </html>
 
